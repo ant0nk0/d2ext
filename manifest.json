@@ -4,6 +4,7 @@
   "version": "0.1.1",
   "description": "Stay tuned with Drive2.Ru",
   "icons": {
+    "19": "drive2-19.png",
     "128": "drive2-128.png"
   },
   "minimum_chrome_version": "16",
