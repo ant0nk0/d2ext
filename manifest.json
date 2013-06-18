@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Drive2.Ru",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Stay tuned with Drive2.Ru",
   "icons": {
     "19": "drive2-19.png",
