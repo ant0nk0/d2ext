@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "Drive2.Ru",
+  "version": "0.1.1",
+  "description": "Stay tuned with Drive2.Ru",
+  "icons": {
+    "128": "drive2-128.png"
+  },
+  "minimum_chrome_version": "16",
+  "offline_enabled": false,
+  "default_locale": "en",
+
+  "browser_action": {
+    "default_icon": "drive2-19.png",
+    "default_title": "Drive2.Ru"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "*://*/*",
+    "tabs",
+    "cookies"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "exclude_matches": [
+    ],
+    "js": [
+      "content.min.js"
+    ],
+    "run_at": "document_start",
+    "all_frames": false
+  }]
+}
