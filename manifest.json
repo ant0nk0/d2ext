@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Drive2.Ru",
-  "version": "0.1.2",
-  "description": "Stay tuned with Drive2.Ru",
+  "name": "Drive2.Ru for Google Chrome™",
+  "version": "0.1.3",
+  "description": "Stay tuned with Drive2.Ru in our browser",
   "icons": {
     "19": "drive2-19.png",
     "128": "drive2-128.png"
@@ -19,19 +19,17 @@
     "page": "background.html"
   },
   "permissions": [
-    "*://*/*",
     "tabs",
-    "cookies"
+    "*://drive2.ru/*",
+    "*://*.drive2.ru/*"
   ],
   "content_scripts": [{
-    "matches": [
-      "<all_urls>"
-    ],
     "exclude_matches": [
     ],
     "js": [
       "content.min.js"
     ],
+    "matches": [ "http://drive2.ru/*", "http://www.drive2.ru/*" ],
     "run_at": "document_start",
     "all_frames": false
   }]
