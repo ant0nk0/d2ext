@@ -1,9 +1,17 @@
 {
+   "extensiontitle": {
+      "message": "Stay tuned with Drive2.Ru in your browser"
+   },
+
    "feed": {
       "message": "Feed:"
    },
 
-   "talks": {
-      "message": "Talks:"
+   "messages": {
+      "message": "Messages:"
+   },
+
+   "comments": {
+      "message": "Comments:"
    }
 }
