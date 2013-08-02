@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Drive2.Ru for Google Chrome™",
-  "version": "0.1.5",
-  "description": "__MSG_extensiontitle__",
+  "name": "Drive2 messages checker",
+  "version": "0.1.6",
+  "description": "__MSG_extension_description__",
   "icons": {
     "19": "drive2-19.png",
     "128": "drive2-128.png"
@@ -13,7 +13,7 @@
 
   "browser_action": {
     "default_icon": "drive2-19.png",
-    "default_title": "Drive2.Ru"
+    "default_title": "Drive2"
   },
   "background": {
     "page": "background.html"

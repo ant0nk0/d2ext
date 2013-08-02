@@ -1,6 +1,6 @@
 {
-   "extensiontitle": {
-      "message": "Stay tuned with Drive2.Ru in your browser"
+   "extension_description": {
+      "message": "Displays the number of unread Drive2 messages."
    },
 
    "feed": {
@@ -13,5 +13,9 @@
 
    "comments": {
       "message": "Comments:"
+   },
+
+   "no_new_messages": {
+      "message": "no new messages"
    }
 }
